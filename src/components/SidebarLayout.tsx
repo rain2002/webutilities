@@ -164,7 +164,7 @@ export default function SidebarLayout({ children }: { children: React.ReactNode 
         
         <div className="p-4 border-t border-slate-100 bg-slate-50">
           <a 
-            href="https://buymeacoffee.com" 
+            href="https://buymeacoffee.com/rain15" 
             target="_blank" 
             rel="noopener noreferrer"
             className="flex flex-col items-center justify-center p-3 w-full bg-[#FFDD00] hover:bg-[#FFD000] text-slate-900 rounded-xl transition-all shadow-sm hover:shadow-md group"
@@ -206,7 +206,7 @@ export default function SidebarLayout({ children }: { children: React.ReactNode 
           </div>
           
           <a 
-            href="https://buymeacoffee.com" 
+            href="https://buymeacoffee.com/rain15" 
             target="_blank" 
             rel="noopener noreferrer"
             className="flex items-center gap-1.5 px-3 py-1.5 bg-[#FFDD00] hover:bg-[#FFD000] transition-colors text-slate-900 rounded-lg font-bold text-xs shadow-sm"
