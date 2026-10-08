@@ -18,7 +18,7 @@ export const metadata: Metadata = {
   description: "WebToolKit is your all-in-one free web tools converter. Compress and convert images, merge PDFs, and transform developer formats securely in your browser.",
   keywords: "web tools converter, image converter, free online tools, pdf merger, image compressor, format converter, browser tools, privacy first tools, web toolkit",
   verification: {
-    google: "tj4MPVmQ3ejeVkczAiLf-9SrBrj25XFO1vyepAG_Jek",
+    google: "VpUWZ3f6QsX19nLHd0bM-YV10c4DS9me28PjFxlMPe8",
   },
 };
 
