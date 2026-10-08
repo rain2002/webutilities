@@ -8,6 +8,7 @@ import {
   FileText, Code2, QrCode, Type, Binary, Lock, Crop, Scissors, ShieldCheck,
   KeyRound, FileCode2, Coffee, MoreVertical, LayoutPanelLeft
 } from "lucide-react";
+import CarbonAd from "./CarbonAd";
 
 const navigation = [
   {
@@ -162,6 +163,9 @@ export default function SidebarLayout({ children }: { children: React.ReactNode 
           ))}
         </div>
         
+        {/* Ad Integration Placeholder */}
+        <CarbonAd />
+
         <div className="p-4 border-t border-slate-100 bg-slate-50">
           <a 
             href="https://buymeacoffee.com/rain15" 
