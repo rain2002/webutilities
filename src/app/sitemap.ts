@@ -1,7 +1,7 @@
 import { MetadataRoute } from 'next'
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const baseUrl = 'https://webtoolkit.com'; // Replace with actual domain when deploying
+  const baseUrl = 'https://webutilities-pzyjkhuon-rain-1933.vercel.app';
   
   const tools = [
     'base64',
