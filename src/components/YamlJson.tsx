@@ -1,6 +1,6 @@
 "use client";
 import { useState } from "react";
-import yaml from "js-yaml";
+import * as yaml from "js-yaml";
 export default function YamlJson() {
   const [input, setInput] = useState("name: John\nage: 30");
   const [output, setOutput] = useState("");
