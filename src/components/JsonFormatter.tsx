@@ -55,22 +55,22 @@ export default function JsonFormatter() {
           </div>
           
           <div className="flex flex-wrap items-center gap-2">
-            <div className="flex items-center bg-gray-200 p-1 rounded-lg mr-2">
+            <div className="flex items-center bg-slate-200 p-1 rounded-lg mr-2">
               <button
                 onClick={() => formatJson(2)}
-                className="px-3 py-1.5 text-xs font-medium bg-white shadow-sm rounded-md hover:text-blue-600 transition-colors"
+                className="px-3 py-1.5 text-xs font-bold text-slate-800 bg-white shadow-sm rounded-md hover:text-indigo-600 transition-colors"
               >
                 Format (2 spaces)
               </button>
               <button
                 onClick={() => formatJson(4)}
-                className="px-3 py-1.5 text-xs font-medium rounded-md hover:bg-white hover:shadow-sm hover:text-blue-600 transition-all"
+                className="px-3 py-1.5 text-xs font-bold text-slate-500 rounded-md hover:bg-white hover:shadow-sm hover:text-indigo-600 transition-all"
               >
                 Format (4 spaces)
               </button>
               <button
                 onClick={minifyJson}
-                className="px-3 py-1.5 text-xs font-medium rounded-md hover:bg-white hover:shadow-sm hover:text-blue-600 transition-all"
+                className="px-3 py-1.5 text-xs font-bold text-slate-500 rounded-md hover:bg-white hover:shadow-sm hover:text-indigo-600 transition-all"
               >
                 Minify
               </button>
