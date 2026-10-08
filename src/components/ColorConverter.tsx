@@ -4,10 +4,10 @@ export default function ColorConverter() {
   const [hex, setHex] = useState("#4f46e5");
   const [rgb, setRgb] = useState("79, 70, 229");
   
-  const hexToRgb = (val) => {
+  const hexToRgb = (val: string) => {
     setHex(val);
     let h = val.replace('#', '');
-    if(h.length === 3) h = h.split('').map(c=>c+c).join('');
+    if(h.length === 3) h = h.split('').map((c: string)=>c+c).join('');
     if(h.length !== 6) return;
     setRgb(`${parseInt(h.substr(0,2),16)}, ${parseInt(h.substr(2,2),16)}, ${parseInt(h.substr(4,2),16)}`);
   };

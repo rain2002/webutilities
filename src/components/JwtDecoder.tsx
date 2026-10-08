@@ -5,7 +5,7 @@ export default function JwtDecoder() {
   const [header, setHeader] = useState("");
   const [payload, setPayload] = useState("");
 
-  const decode = (val) => {
+  const decode = (val: string) => {
     setInput(val);
     try {
       const parts = val.split('.');
