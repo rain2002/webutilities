@@ -4,20 +4,31 @@ import React, { useState, useEffect } from "react";
 import { Clock, ArrowDown, ArrowUp, Copy, Check } from "lucide-react";
 
 export default function TimestampConverter() {
-  const [timestamp, setTimestamp] = useState<string>(Math.floor(Date.now() / 1000).toString());
+  const [timestamp, setTimestamp] = useState<string>("");
   const [dateInput, setDateInput] = useState<string>("");
-  const [resultDate, setResultDate] = useState<Date | null>(new Date());
+  const [resultDate, setResultDate] = useState<Date | null>(null);
   const [resultTimestamp, setResultTimestamp] = useState<number | null>(null);
   const [copiedTime, setCopiedTime] = useState(false);
   const [copiedDate, setCopiedDate] = useState(false);
+  const [currentTime, setCurrentTime] = useState<number | null>(null);
 
-  // Set initial date input to current local time
+  // Set initial date input and current time only on the client to avoid Next.js hydration errors
   useEffect(() => {
     const now = new Date();
+    setTimestamp(Math.floor(now.getTime() / 1000).toString());
+    setResultDate(now);
+    setCurrentTime(Math.floor(now.getTime() / 1000));
+    
     // format to YYYY-MM-DDTHH:mm
     const offset = now.getTimezoneOffset() * 60000;
     const localISOTime = (new Date(now.getTime() - offset)).toISOString().slice(0, 16);
     setDateInput(localISOTime);
+    
+    // Set up a ticking clock for the live widget
+    const interval = setInterval(() => {
+      setCurrentTime(Math.floor(Date.now() / 1000));
+    }, 1000);
+    return () => clearInterval(interval);
   }, []);
 
   const handleTimestampChange = (e: React.ChangeEvent<HTMLInputElement>) => {
@@ -78,7 +89,7 @@ export default function TimestampConverter() {
           </div>
           <div>
             <p className="text-indigo-200 font-medium">Current Unix Timestamp</p>
-            <p className="text-3xl font-mono font-bold">{Math.floor(Date.now() / 1000)}</p>
+            <p className="text-3xl font-mono font-bold">{currentTime !== null ? currentTime : "Loading..."}</p>
           </div>
         </div>
       </div>
