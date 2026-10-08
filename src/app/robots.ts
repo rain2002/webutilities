@@ -7,6 +7,6 @@ export default function robots(): MetadataRoute.Robots {
       allow: '/',
       disallow: ['/api/'],
     },
-    sitemap: 'https://webutilities-pzyjkhuon-rain-1933.vercel.app/sitemap.xml',
+    sitemap: 'https://webutilities-xi.vercel.app/sitemap.xml',
   }
 }
