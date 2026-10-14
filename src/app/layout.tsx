@@ -27,6 +27,19 @@ export const metadata: Metadata = {
   other: {
     "msvalidate.01": "7D83AFF11C3029CB762E579A6793EC2C",
   },
+  openGraph: {
+    title: "Free Web Tools Converter & Utilities Online | WebToolKit",
+    description: "WebToolKit is your all-in-one free web tools converter. Compress and convert images, merge PDFs, and transform developer formats securely in your browser.",
+    url: "https://webutilities-xi.vercel.app",
+    siteName: "WebToolKit",
+    locale: "en_US",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Free Web Tools Converter & Utilities Online | WebToolKit",
+    description: "WebToolKit is your all-in-one free web tools converter. 100% privacy-first and client-side.",
+  },
 };
 
 export default function RootLayout({
@@ -38,6 +51,25 @@ export default function RootLayout({
     <html lang="en" className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}>
       <head>
         <meta name="msvalidate.01" content="7D83AFF11C3029CB762E579A6793EC2C" />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "WebApplication",
+              name: "WebToolKit",
+              url: "https://webutilities-xi.vercel.app",
+              description: "Free web tools converter, image compressor, PDF merger, and developer format utilities running locally in your browser.",
+              applicationCategory: "UtilitiesApplication",
+              operatingSystem: "All",
+              offers: {
+                "@type": "Offer",
+                price: "0",
+                priceCurrency: "USD",
+              },
+            }),
+          }}
+        />
       </head>
       <body className="bg-slate-50 text-slate-900 relative">
         {/* Global Background Decor */}
