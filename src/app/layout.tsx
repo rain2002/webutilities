@@ -23,6 +23,9 @@ export const metadata: Metadata = {
   keywords: "web tools converter, image converter, free online tools, pdf merger, image compressor, format converter, browser tools, privacy first tools, web toolkit",
   verification: {
     google: "tj4MPVmQ3ejeVkczAiLf-9SrBrj25XFO1vyepAG_Jek",
+    other: {
+      "msvalidate.01": "7D83AFF11C3029CB762E579A6793EC2C",
+    },
   },
 };
 
