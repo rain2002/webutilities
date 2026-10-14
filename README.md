@@ -1,36 +1,46 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# WebToolKit - Free Privacy-First Online Developer & Web Utilities
 
-## Getting Started
+🚀 **Live Application:** [https://webutilities-xi.vercel.app](https://webutilities-xi.vercel.app)
 
-First, run the development server:
+WebToolKit is a modern, fast, and 100% client-side privacy-first web utility suite. All operations run directly in your browser without uploading your sensitive data to third-party servers.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+---
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🛠️ Available Online Tools
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Explore the tools live on [WebToolKit](https://webutilities-xi.vercel.app):
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+### 🖼️ Image Utilities
+- [Image Compressor](https://webutilities-xi.vercel.app/tools/image-compressor) – Compress PNG, JPG, and WEBP images with real-time size comparison.
+- [Image Resizer](https://webutilities-xi.vercel.app/tools/image-resizer) – Fast custom dimension resizing and aspect ratio scaling.
 
-## Learn More
+### 📄 Document & PDF Tools
+- [PDF Merger](https://webutilities-xi.vercel.app/tools/pdf-merger) – Combine multiple PDF files into one clean document.
+- [PDF Splitter](https://webutilities-xi.vercel.app/tools/pdf-splitter) – Extract specific page ranges or split PDFs into individual pages.
+- [PDF Watermark](https://webutilities-xi.vercel.app/tools/pdf-watermark) – Add custom text watermarks to your PDF documents.
 
-To learn more about Next.js, take a look at the following resources:
+### 💻 Developer Tools & Converters
+- [JSON Formatter & Validator](https://webutilities-xi.vercel.app/tools/json-formatter) – Pretty-print, format (2/4 spaces), and minify JSON.
+- [JSON to CSV Converter](https://webutilities-xi.vercel.app/tools/json-csv) – Convert structured JSON arrays into downloadable CSV files.
+- [YAML to JSON Converter](https://webutilities-xi.vercel.app/tools/yaml-json) – Seamless bidirectional conversion between YAML and JSON.
+- [Base64 Encoder & Decoder](https://webutilities-xi.vercel.app/tools/base64) – Encode strings or decode Base64 data securely.
+- [JWT Decoder](https://webutilities-xi.vercel.app/tools/jwt-decoder) – Inspect JSON Web Token headers, payload claims, and expiration.
+- [Timestamp Converter](https://webutilities-xi.vercel.app/tools/timestamp-converter) – Convert Unix epoch timestamps to human-readable dates and vice versa.
+- [Markdown to HTML](https://webutilities-xi.vercel.app/tools/markdown-html) – Real-time Markdown parser and live HTML preview.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### 🎨 Design & Everyday Utilities
+- [Color Converter](https://webutilities-xi.vercel.app/tools/color-converter) – Convert HEX, RGB, and HSL values with live color palettes.
+- [QR Code Generator](https://webutilities-xi.vercel.app/tools/qr-generator) – Generate custom scannable QR codes for links, text, and Wi-Fi.
+- [Password Generator](https://webutilities-xi.vercel.app/tools/password-generator) – Create strong, cryptographically secure passwords.
+- [Word & Character Counter](https://webutilities-xi.vercel.app/tools/word-counter) – Measure word counts, characters, sentences, and estimated reading time.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+---
 
-## Deploy on Vercel
+## 🔒 100% Client-Side Privacy
+No backend databases or third-party servers see your images, PDFs, or developer tokens. All processing takes place locally in your browser memory.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 💻 Tech Stack
+- **Framework:** Next.js (App Router, Turbopack)
+- **Styling:** Tailwind CSS & Glassmorphism UI
+- **Deployment:** Vercel
+- **Libraries:** Lucide React, pdf-lib, PapaParse, js-yaml, marked
