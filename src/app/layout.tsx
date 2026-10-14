@@ -23,9 +23,9 @@ export const metadata: Metadata = {
   keywords: "web tools converter, image converter, free online tools, pdf merger, image compressor, format converter, browser tools, privacy first tools, web toolkit",
   verification: {
     google: "tj4MPVmQ3ejeVkczAiLf-9SrBrj25XFO1vyepAG_Jek",
-    other: {
-      "msvalidate.01": "7D83AFF11C3029CB762E579A6793EC2C",
-    },
+  },
+  other: {
+    "msvalidate.01": "7D83AFF11C3029CB762E579A6793EC2C",
   },
 };
 
@@ -36,6 +36,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}>
+      <head>
+        <meta name="msvalidate.01" content="7D83AFF11C3029CB762E579A6793EC2C" />
+      </head>
       <body className="bg-slate-50 text-slate-900 relative">
         {/* Global Background Decor */}
         <div className="fixed inset-0 -z-10 h-full w-full bg-slate-50 bg-[radial-gradient(#cbd5e1_1px,transparent_1px)] [background-size:20px_20px] opacity-60"></div>
