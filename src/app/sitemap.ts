@@ -6,8 +6,10 @@ export default function sitemap(): MetadataRoute.Sitemap {
   const tools = [
     'base64',
     'color-converter',
+    'excel-to-csv',
     'image-compressor',
     'image-resizer',
+    'image-to-pdf',
     'json-csv',
     'json-formatter',
     'jwt-decoder',
@@ -15,6 +17,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     'password-generator',
     'pdf-merger',
     'pdf-splitter',
+    'pdf-to-word',
     'pdf-watermark',
     'qr-generator',
     'timestamp-converter',

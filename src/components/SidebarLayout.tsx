@@ -16,14 +16,16 @@ const navigation = [
     icon: <ImageIcon className="w-5 h-5" />,
     items: [
       { name: "Image Compressor", href: "/tools/image-compressor" },
-      { name: "QR Code Generator", href: "/tools/qr-generator" },
+      { name: "Image to PDF", href: "/tools/image-to-pdf" },
       { name: "Image Resizer", href: "/tools/image-resizer" },
+      { name: "QR Code Generator", href: "/tools/qr-generator" },
     ]
   },
   {
     name: "PDF Documents",
     icon: <FileText className="w-5 h-5" />,
     items: [
+      { name: "PDF to Word (.docx)", href: "/tools/pdf-to-word" },
       { name: "PDF Merger", href: "/tools/pdf-merger" },
       { name: "PDF Splitter", href: "/tools/pdf-splitter" },
       { name: "PDF Watermark", href: "/tools/pdf-watermark" },
@@ -45,6 +47,7 @@ const navigation = [
     name: "Developer Converters",
     icon: <Code2 className="w-5 h-5" />,
     items: [
+      { name: "Excel to CSV", href: "/tools/excel-to-csv" },
       { name: "JSON ↔ CSV", href: "/tools/json-csv" },
       { name: "YAML ↔ JSON", href: "/tools/yaml-json" },
       { name: "Color Converter", href: "/tools/color-converter" },

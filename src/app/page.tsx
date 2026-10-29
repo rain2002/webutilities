@@ -1,7 +1,7 @@
 import Link from "next/link";
 import { 
   Image as ImageIcon, Type, Code2, FileText, ArrowRight, ShieldCheck, Zap, Coins,
-  QrCode, Crop, Scissors, KeyRound, Binary, Lock, FileCode2
+  QrCode, Crop, Scissors, KeyRound, Binary, Lock, FileCode2, FileSpreadsheet, FileCheck2, FileImage
 } from "lucide-react";
 
 export default function Home() {
@@ -31,6 +31,16 @@ export default function Home() {
           soon: false
         },
         {
+          id: "image-to-pdf",
+          title: "Image to PDF Converter",
+          description: "Convert and merge multiple JPG, PNG, and WEBP images into a clean PDF with custom page layouts.",
+          icon: <FileImage className="w-6 h-6 text-indigo-600" />,
+          href: "/tools/image-to-pdf",
+          color: "bg-indigo-50 border-indigo-100",
+          gradient: "hover:border-indigo-300 hover:shadow-indigo-500/20",
+          soon: false
+        },
+        {
           id: "image-resizer",
           title: "Image Resizer & Cropper",
           description: "Crop and scale images to exact dimensions. Perfect for social media and thumbnails.",
@@ -46,6 +56,16 @@ export default function Home() {
       title: "PDF Documents",
       description: "Manipulate sensitive documents securely without server uploads.",
       tools: [
+        {
+          id: "pdf-to-word",
+          title: "PDF to Word Converter",
+          description: "Extract text and convert PDF documents into editable Microsoft Word (.docx) files locally.",
+          icon: <FileCheck2 className="w-6 h-6 text-orange-600" />,
+          href: "/tools/pdf-to-word",
+          color: "bg-orange-50 border-orange-100",
+          gradient: "hover:border-orange-300 hover:shadow-orange-500/20",
+          soon: false
+        },
         {
           id: "pdf-merger",
           title: "PDF Merger",
@@ -148,6 +168,16 @@ export default function Home() {
       title: "Developer Converters",
       description: "Convert data formats instantly without sending sensitive data to external servers.",
       tools: [
+        {
+          id: "excel-to-csv",
+          title: "Excel to CSV Converter",
+          description: "Convert spreadsheets (.xlsx, .xls, .ods) into clean CSV or TSV data with live preview.",
+          icon: <FileSpreadsheet className="w-6 h-6 text-emerald-600" />,
+          href: "/tools/excel-to-csv",
+          color: "bg-emerald-50 border-emerald-100",
+          gradient: "hover:border-emerald-300 hover:shadow-emerald-500/20",
+          soon: false
+        },
         {
           id: "json-csv",
           title: "JSON ↔ CSV Converter",

@@ -12,14 +12,17 @@ Explore the tools live on [WebToolKit](https://webutilities-xi.vercel.app):
 
 ### 🖼️ Image Utilities
 - [Image Compressor](https://webutilities-xi.vercel.app/tools/image-compressor) – Compress PNG, JPG, and WEBP images with real-time size comparison.
+- [Image to PDF](https://webutilities-xi.vercel.app/tools/image-to-pdf) – Convert and merge multiple JPG, PNG, and WEBP images into a formatted PDF.
 - [Image Resizer](https://webutilities-xi.vercel.app/tools/image-resizer) – Fast custom dimension resizing and aspect ratio scaling.
 
 ### 📄 Document & PDF Tools
+- [PDF to Word (.docx)](https://webutilities-xi.vercel.app/tools/pdf-to-word) – Convert PDF documents into editable Microsoft Word documents locally.
 - [PDF Merger](https://webutilities-xi.vercel.app/tools/pdf-merger) – Combine multiple PDF files into one clean document.
 - [PDF Splitter](https://webutilities-xi.vercel.app/tools/pdf-splitter) – Extract specific page ranges or split PDFs into individual pages.
 - [PDF Watermark](https://webutilities-xi.vercel.app/tools/pdf-watermark) – Add custom text watermarks to your PDF documents.
 
 ### 💻 Developer Tools & Converters
+- [Excel to CSV Converter](https://webutilities-xi.vercel.app/tools/excel-to-csv) – Convert Excel spreadsheets (.xlsx, .xls, .ods) into clean CSV or TSV data with live preview.
 - [JSON Formatter & Validator](https://webutilities-xi.vercel.app/tools/json-formatter) – Pretty-print, format (2/4 spaces), and minify JSON.
 - [JSON to CSV Converter](https://webutilities-xi.vercel.app/tools/json-csv) – Convert structured JSON arrays into downloadable CSV files.
 - [YAML to JSON Converter](https://webutilities-xi.vercel.app/tools/yaml-json) – Seamless bidirectional conversion between YAML and JSON.
