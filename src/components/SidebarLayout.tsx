@@ -26,6 +26,7 @@ const navigation = [
     icon: <FileText className="w-5 h-5" />,
     items: [
       { name: "PDF to Word (.docx)", href: "/tools/pdf-to-word" },
+      { name: "Word to PDF", href: "/tools/word-to-pdf" },
       { name: "PDF Merger", href: "/tools/pdf-merger" },
       { name: "PDF Splitter", href: "/tools/pdf-splitter" },
       { name: "PDF Watermark", href: "/tools/pdf-watermark" },

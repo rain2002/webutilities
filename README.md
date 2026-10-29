@@ -16,6 +16,7 @@ Explore the tools live on [WebToolKit](https://webutilities-xi.vercel.app):
 - [Image Resizer](https://webutilities-xi.vercel.app/tools/image-resizer) – Fast custom dimension resizing and aspect ratio scaling.
 
 ### 📄 Document & PDF Tools
+- [Word to PDF](https://webutilities-xi.vercel.app/tools/word-to-pdf) – Convert Word documents (.docx) into clean, professional PDF files with instant preview.
 - [PDF to Word (.docx)](https://webutilities-xi.vercel.app/tools/pdf-to-word) – Convert PDF documents into editable Microsoft Word documents locally.
 - [PDF Merger](https://webutilities-xi.vercel.app/tools/pdf-merger) – Combine multiple PDF files into one clean document.
 - [PDF Splitter](https://webutilities-xi.vercel.app/tools/pdf-splitter) – Extract specific page ranges or split PDFs into individual pages.

@@ -22,6 +22,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     'qr-generator',
     'timestamp-converter',
     'word-counter',
+    'word-to-pdf',
     'yaml-json',
   ];
 

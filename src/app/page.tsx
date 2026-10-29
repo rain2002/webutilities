@@ -67,6 +67,16 @@ export default function Home() {
           soon: false
         },
         {
+          id: "word-to-pdf",
+          title: "Word to PDF Converter",
+          description: "Convert Word documents (.docx) into clean, professional PDF files with instant preview.",
+          icon: <FileText className="w-6 h-6 text-orange-600" />,
+          href: "/tools/word-to-pdf",
+          color: "bg-orange-50 border-orange-100",
+          gradient: "hover:border-orange-300 hover:shadow-orange-500/20",
+          soon: false
+        },
+        {
           id: "pdf-merger",
           title: "PDF Merger",
           description: "Combine multiple PDF files into one document instantly. Processed locally for 100% privacy.",
